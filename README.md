@@ -2,7 +2,42 @@ Contributions:
 Gianna: rewrote the guard code, the intro scene, the fork scene, and the ending scene
 Alanna: added a cave scene, added the play again function, altered the coin and seconds to deal with negative inputs, changed the age function to halt the adventure if eligibility not met
 
-#failure without torch path
+#failure without torch path right
+Adventure Toolkit — Chapters 1–3,5
+=== Prep Utilities ===
+Enter total seconds: 800
+H:MM:SS = 0:13:20
+Enter copper pieces (cp): 80
+Coins → gp:0  sp:8  cp:0
+Enter age: 19
+Citizen (y/n): y
+Eligible? True
+
+=== Mini-Adventure ===
+What is your name, adventurer? Alanna
+Do you carry a torch? (y/n): n
+# DEBUG: name=Alanna, has_torch=False
+
+Welcome, Alanna.
+The air grows colder as you cross the threshold of the crumbling castle.
+From the shadows, a flock of ravens burst upward, their wings echoing against the empty halls that once hosted royalty.
+
+You reach a fork deep within the crumbling castle.
+To the left, broken walls are lined with faint carvings, half-buried in rubble.
+To the right, the corridor narrows, its silence broken only by falling stone.
+Choose your path (left/right): right
+In the dark, falling bricks echo through the castle. You push on, but every wall and door seams identical.
+
+You see a cave. A strange sensation pulls you onward.
+Choose (enter/exit): exit
+It was too dark. You feel like you dodged a bullet.
+You press forward into the dark corridor.
+A thunderous crack splits the air — the ceiling gives way, burying the path behind and ahead.
+The castle has claimed another soul,stories you were told as a child about the legend of the Sword of Fallen Kings.
+Do you want to play again? (y/n): n
+Thanks for playing!
+
+#failure without torch path left
 Adventure Toolkit — Chapters 1–3,5
 === Prep Utilities ===
 Enter total seconds: 200
