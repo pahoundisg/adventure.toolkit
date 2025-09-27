@@ -3,9 +3,10 @@ Gianna: rewrote the guard code, the intro scene, the fork scene, and the ending 
 Alanna: added a cave scene, added the play again function, altered the coin and seconds to deal with negative inputs, changed the age function to halt the adventure if eligibility not met, got the transcripts for the output, added docstrings
 
 How to run:
-Run all functions, then run:
+Run all functions, then run, have to run all functions each time because system crashes:
 if __name__ == "__main__":
   main()
+
 
 #failure without torch path right
 Adventure Toolkit — Chapters 1–3,5
@@ -157,7 +158,7 @@ Citizen (y/n): y
 Eligible? False
 You are not eligible to enter the castle.
 
-
+#Mini-tests 1-3
 Adventure Toolkit — Chapters 1–3,5
 === Prep Utilities ===
 Enter total seconds: 367
@@ -168,6 +169,32 @@ Enter age: 17
 Citizen (y/n): y
 Eligible? False
 
+Adventure Toolkit — Chapters 1–3,5
+=== Prep Utilities ===
+Enter total seconds: 3600
+H:MM:SS = 1:00:00
+Enter copper pieces (cp): 30
+Coins → gp:0  sp:3  cp:0
+Enter age: 20
+Citizen (y/n): n
+Eligible? False
+You are not eligible to enter the castle.
+
+Adventure Toolkit — Chapters 1–3,5
+=== Prep Utilities ===
+Enter total seconds: 300
+H:MM:SS = 0:05:00
+Enter copper pieces (cp): 300
+Coins → gp:0  sp:30  cp:0
+Enter age: 20
+Citizen (y/n): y
+Eligible? True
+
+#Mini-test 4
+=== Mini-Adventure ===
+What is your name, adventurer? Alanna
+Do you carry a torch? (y/n): maybe
+Please enter one of: y, n
 
 # adventure.toolkit
 adventure toolkit
