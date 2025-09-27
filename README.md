@@ -1,6 +1,6 @@
 Contributions:
 Gianna: rewrote the guard code, the intro scene, the fork scene, and the ending scene
-Alanna: added a cave scene, added the play again function, altered the coin and seconds to deal with negative inputs, changed the age function to halt the adventure if eligibility not met, got the transcripts for the output
+Alanna: added a cave scene, added the play again function, altered the coin and seconds to deal with negative inputs, changed the age function to halt the adventure if eligibility not met, got the transcripts for the output, added docstrings
 
 How to run:
 Run all functions, then run:
