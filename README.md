@@ -1,6 +1,8 @@
 Contributions:
 Gianna: rewrote the guard code, the intro scene, the fork scene, and the ending scene
 Alanna: added a cave scene, added the play again function, altered the coin and seconds to deal with negative inputs, changed the age function to halt the adventure if eligibility not met, got the transcripts for the output, added docstrings
+Karla: comments on guard code
+Tiffany: ask prompts
 
 How to run:
 Run all functions, then run, have to run all functions each time because system crashes:
@@ -195,6 +197,46 @@ Eligible? True
 What is your name, adventurer? Alanna
 Do you carry a torch? (y/n): maybe
 Please enter one of: y, n
+
+#Mini-test 5
+Adventure Toolkit — Chapters 1–3,5
+=== Prep Utilities ===
+Enter total seconds: 3600
+H:MM:SS = 1:00:00
+Enter copper pieces (cp): 400
+Coins → gp:0  sp:40  cp:0
+Enter age: 18
+Citizen (y/n): y
+Eligible? True
+
+=== Mini-Adventure ===
+What is your name, adventurer? lucky
+Do you carry a torch? (y/n): y
+# DEBUG: name=lucky, has_torch=True
+
+Welcome, lucky.
+The air grows colder as you cross the threshold of the crumbling castle.
+From the shadows, a flock of ravens burst upward, their wings echoing against the empty halls that once hosted royalty.
+
+You reach a fork deep within the crumbling castle.
+To the left, broken walls are lined with faint carvings, half-buried in rubble.
+To the right, the corridor narrows, its silence broken only by falling stone.
+Choose your path (left/right): right
+You spot a cracked archway ahead, nearly collapsed — beyond it lies a sealed door marked with a sword rune.
+
+You see a cave. A strange sensation pulls you onward.
+Choose (enter/exit): exit
+You can't help but feel like you missed out on something.
+Etch your code guess upon the stone (3 attempts remain): 50
+The code fades too dimly... it is too low.
+Etch your code guess upon the stone (2 attempts remain): 90
+The code blazes too fiercely... it is too high.
+Etch your code guess upon the stone (1 attempts remain): 77
+The old stones tremble... the gates creak open. You have succeeded.
+With a final effort, the seal breaks open. Within lies the Sword of Fallen Kings, glowing faintly in the dark.
+The weapon is yours — a relic, a myth once told as a bedtime story to children across the realm, now bound to your fate.
+Do you want to play again? (y/n): n
+Thanks for playing!
 
 # adventure.toolkit
 adventure toolkit
